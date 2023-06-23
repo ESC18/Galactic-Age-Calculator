@@ -1,7 +1,7 @@
 {
   "name": "template-repo",
   "version": "1.0.0",
-  "description": "* Enter\r * Technologies\r * Used\r * Here\r * !!!\r * !!!!",
+  "description": "* HTML\r * CSS\r * JS\r * Webpack\r * Webpack CLI\r * Webpack Dev-Server\r * CSS Loader\r * Style Loader\r * Jest\r * HTML-Webpack-Plugin\r * EsLint\r * EsLint Webpack-Plugin\r * Clean Webpack-Plugin\r * Babel/core\r * Babel/plugin transform modules\r * HTML Loader\r * File Loader",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
@@ -14,7 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.5",
+    "@babel/plugin-proposal-decorators": "^7.22.5",
     "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "babel": "^6.23.0",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.8.1",
     "eslint": "^8.43.0",
@@ -27,5 +29,8 @@
     "webpack": "5.88.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "4.15.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
   }
 }

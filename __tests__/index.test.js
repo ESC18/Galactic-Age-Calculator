@@ -16,3 +16,14 @@ describe("Blank", () => {
     });
 })
 */
+
+import planetYears from './../src/index';
+
+describe("planetYears", () => {
+
+
+    test("Should take the value of age and multiply it for each planet to return the age of a person on said planet", () => {
+        const totalAge = new planetYears(10);
+        expect(totalAge.age).toEqual(10);
+    });
+});
